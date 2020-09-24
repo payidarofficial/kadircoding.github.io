@@ -1,0 +1,123 @@
+/*
+*		İMPORTANT TANIMI İÇİN HAZIRLANMIŞ BİR CSS DOSYASIDIR
+*		ÇALANLAR EMEĞİMİZE YAZIK ETMİŞ OLUR
+*		BU ARADA EĞER BURADAYSAN SANADA SELAM :)
+*/
+
+html {
+	scroll-behavior:smooth;
+}
+
+body {
+	background:white;
+	margin:0 auto;
+}
+
+::-webkit-scrollbar {
+	background:black;
+}
+
+::-webkit-scrollbar-thumb {
+	background:white;
+}
+
+::selection {
+	background:red;
+}
+
+#kutumuz1payidar {
+	box-shadow: 0px 16px 27px 0px rgba(4,5,2,0.4);
+	width:90%;
+	height:1200px;
+	background-color:#37363d;
+	transition:.3s ease-in-out;
+	overflow:auto;
+	margin-top:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#kutumuz1payidar h1 {
+	font-family:monospace;
+	font-size:xx-large;
+	font-weight:bolder;
+	color:white;
+	text-align:center;
+}
+
+#kutumuz1payidar p {
+	font-family:monospace;
+	font-size:x-large;
+	font-weight:bolder;
+	color:#ff5f00;
+}
+
+#kutumuz1payidar hr {
+	width:20%;
+}
+
+#centerpayidar {
+	text-align:center;
+}
+
+#kutumuz1payidar h3 {
+	margin-left:5px;
+}
+
+#kutumuz1payidar code {
+	border-left:3px solid white;
+	background-color:darkgray;
+	font-family:monospace;
+	font-size:x-large;
+	font-weight:bolder;
+	color:white;
+	display:block;
+	border-radius:0.3em;
+}
+
+#kutumuz1payidar strong {
+	margin-left:15px !important;
+}
+
+/* 
+*		CODİNG PAYİDAR...
+*/
+
+#footer {
+
+	box-shadow: 0px 16px 27px 0px rgba(4,5,2,0.4);
+	width:90%;
+	height:200px;
+	background-color:#37363d;
+	transition:.3s ease-in-out;
+	overflow:auto;
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#footer p {
+	font-family:monospace;
+	font-size:20px;
+	font-weight:bolder;
+	color:white;
+	margin-left:5px;
+}
+
+#footer a {
+	font-family:monospace;
+	font-size:x-large;
+	font-weight:bolder;
+	color:white;
+	padding:5px;
+	margin-left:5px;
+	text-decoration:none;
+	transition:.5s ease-in-out;
+}
+
+#footer a:hover {
+	transition:.5s ease-in-out;
+	color:#ff5f00;
+	box-shadow:0px 0px 0px 3px white;
+}
